@@ -1,0 +1,25 @@
+.ylv-block-control {
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    --url: url(/bitrix/components/bitrix/crm.timeline/templates/.default/images/icons-sprite.svg);
+    --position: center -600px;
+    -webkit-mask-image: var(--url);
+    mask-image: var(--url);
+    -webkit-mask-position: var(--position);
+    mask-position: var(--position);
+    background-color: #e39696;
+}
+
+.ylv-block-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sticky-column-custom {
+    position: sticky !important;
+    left: 0;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
